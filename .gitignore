@@ -1,0 +1,131 @@
+# Test output
+results/
+assets/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Build output directory
+bin/
+dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Configuration files with sensitive data
+.env
+.env.local
+.env.*.local
+config/local.yaml
+config/local.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage reports
+coverage.txt
+coverage.html
+
+# Profiling data
+*.prof
+*.pprof
+
+# Gazelle-specific files
+# Camera calibration files
+calibration/
+*.calib
+
+# Eye tracking model files (if large)
+models/*.onnx
+models/*.pb
+models/*.tflite
+
+# Depth estimation models (external models directory)
+# Keep the README.md but ignore all model files
+external/models/**/*.onnx
+external/models/**/*.pb
+external/models/**/*.tflite
+external/models/**/*.bin
+external/models/**/*.pth
+external/models/**/*.pt
+external/models/**/*.h5
+external/models/**/*.weights
+external/models/**/*.caffemodel
+external/models/**/*.prototxt
+
+# Cascade files (if not in assets/cascades)
+*.xml
+*.yml
+
+# Screenshots and test images
+screenshots/
+test_images/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Archive files
+*.tar.gz
+*.zip
+*.rar
+
+# Documentation build artifacts
+docs/_build/
+docs/build/
+
+# Node modules (if any frontend components)
+node_modules/
+
+# Python virtual environments (if any ML components)
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local development files
+local/
+dev/
