@@ -13,7 +13,7 @@ A comprehensive Go project starter template optimized for development with Claud
 
 1. **Clone this template**:
    ```bash
-   git clone https://github.com/yourusername/go-claude-code.git my-project
+   git clone https://github.com/iepathos/go-claude-code.git my-project
    cd my-project
    rm -rf .git
    git init
@@ -27,7 +27,7 @@ A comprehensive Go project starter template optimized for development with Claud
 
 3. **Initialize your Go module**:
    ```bash
-   go mod init github.com/yourusername/my-project
+   go mod init github.com/iepathos/my-project
    ```
 
 4. **Create your project structure**:
