@@ -165,9 +165,9 @@ If you have suggestions for improving this template:
 3. Make your improvements
 4. Submit a pull request
 
-## License
+## 📝 License
 
-This template is available under the MIT License. Feel free to use it for any purpose.
+This template is provided as-is for use in your own projects. Customize the license as needed for your specific use case.
 
 ## Acknowledgments
 
