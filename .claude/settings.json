@@ -65,15 +65,5 @@
         "Bash(jq:*)"
       ],
       "deny": []
-    },
-    "environment": {},
-    "aliases": {
-      "test": "go test -v ./...",
-      "build": "go build -o bin/$(basename $(pwd)) ./...",
-      "lint": "golangci-lint run",
-      "vet": "go vet ./...",
-      "fmt": "go fmt ./...",
-      "tidy": "go mod tidy",
-      "clean": "go clean && rm -rf bin/"
     }
   }
